@@ -1,3 +1,49 @@
-site_name: Serendeipity - Product Requirements Document (PRD)
+site_name: Serendipity - Product Requirements Document (PRD)
+
 theme:
   name: material
+  features:
+    - tabs
+    - instant.loading
+    - navigation.indexes
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Home: index.md
+  - Project Guidelines:
+      - Product Requirements Document (PRD):
+          - Discovery and Ideation Phase: project-guidelines/discovery_and_ideation_phase.md
+          - Requirements Specification Phase: project-guidelines/product_requirements_document_phase2.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SerendipityOrg/TradeMan-Dev-Guidelines
