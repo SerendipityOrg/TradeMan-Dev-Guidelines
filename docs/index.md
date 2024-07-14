@@ -24,11 +24,10 @@ Welcome to the comprehensive documentation for Serendipity's Product Requirement
 
 Our documentation is divided into the following main sections:
 
-- [New Project Kit](project-guidelines/discovery_and_ideation_phase/)
+- [New Project Kit](new_project_kit/discovery_and_ideation_worksheet_template/)
 - [Coding Conventions and Guidelines]()
 - [CI/CD Guidelines]()
 
 ## Getting Started
 
 To get started, select a section from the navigation menu or use the links above to jump to a specific section.
-
