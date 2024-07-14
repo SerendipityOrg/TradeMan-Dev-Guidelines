@@ -43,11 +43,11 @@ nav:
   - Home: index.md
   - New Project Kit:
       - Product Requirements Document (PRD):
-          - Discovery and Ideation — Worksheet: project-guidelines/discovery_and_ideation_worksheet_template.md
-          - PRD Template: project-guidelines/prd_template.md
+          - Discovery and Ideation — Worksheet: new_project_kit/discovery_and_ideation_worksheet_template.md
+          - PRD Template: new_project_kit/prd_template.md
       - Technical Design Documentation:
-          - TDD Template: project-guidelines/tdd_template.md
-          - TDD Template (with examples): project-guidelines/tdd_template_with_examples.md
+          - TDD Template: new_project_kit/tdd_template.md
+          - TDD Template (with examples): new_project_kit/tdd_template_with_examples.md
 
 extra:
   social:
