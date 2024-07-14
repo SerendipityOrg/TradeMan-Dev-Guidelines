@@ -45,6 +45,9 @@ nav:
       - Product Requirements Document (PRD):
           - Discovery and Ideation — Worksheet: project-guidelines/discovery_and_ideation_worksheet_template.md
           - PRD Template: project-guidelines/prd_template.md
+      - Technical Design Documentation:
+          - TDD Template: project-guidelines/tdd_template.md
+          - TDD Template (with examples): project-guidelines/tdd_template_with_examples.md
 
 extra:
   social:
