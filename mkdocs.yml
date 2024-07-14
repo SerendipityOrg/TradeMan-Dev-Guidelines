@@ -33,15 +33,30 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
 
 extra_css:
   - assets/css/custom.css
 
 nav:
-  - Home: index.md
+  - Home:
+      - Start here: index.md
+      - Starting new projects:
+          - New project Kit: new_project_kit/discovery_and_ideation_worksheet_template/
   - New Project Kit:
+      - Start here: new_project_kit/project_setup_guide.md
+      - Repo Templates List:
+          - Templates Repos: new_project_kit/templates_repos.md
+          - WebApp Template: new_project_kit/webapp_template.md
+          - Admin Panel Template: new_project_kit/admin_panel_template.md
+          - Mobile App Template: new_project_kit/mobile_app_template.md
+          - Backend Template: new_project_kit/backend_template.md
       - Product Requirements Document (PRD):
           - Discovery and Ideation — Worksheet: new_project_kit/discovery_and_ideation_worksheet_template.md
           - PRD Template: new_project_kit/prd_template.md
