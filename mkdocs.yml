@@ -1,11 +1,14 @@
-site_name: Serendipity - Product Requirements Document (PRD)
+site_name: Serendipity - Dev. Guidelines
 
 theme:
   name: material
   features:
-    - tabs
     - instant.loading
     - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
   palette:
     primary: indigo
     accent: indigo
@@ -38,10 +41,10 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Project Guidelines:
+  - New Project Kit:
       - Product Requirements Document (PRD):
-          - Discovery and Ideation Phase: project-guidelines/discovery_and_ideation_phase.md
-          - Requirements Specification Phase: project-guidelines/product_requirements_document_phase2.md
+          - Discovery and Ideation — Worksheet: project-guidelines/discovery_and_ideation_worksheet_template.md
+          - PRD Template: project-guidelines/prd_template.md
 
 extra:
   social:

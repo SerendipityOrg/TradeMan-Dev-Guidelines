@@ -24,8 +24,9 @@ Welcome to the comprehensive documentation for Serendipity's Product Requirement
 
 Our documentation is divided into the following main sections:
 
-- [Discovery and Ideation Phase](project-guidelines/discovery_and_ideation_phase.md)
-- [Requirements Specification Phase](project-guidelines/product_requirements_document_phase2.md)
+- [New Project Kit](project-guidelines/discovery_and_ideation_phase/)
+- [Coding Conventions and Guidelines]()
+- [CI/CD Guidelines]()
 
 ## Getting Started
 

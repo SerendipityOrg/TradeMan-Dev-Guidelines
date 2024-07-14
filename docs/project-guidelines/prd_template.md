@@ -1,4 +1,4 @@
-# Product Requirements Document (PRD) - Requirements Specification Phase 2
+# Product Requirements Document (PRD) - Requirements Specification [Phase 2]
 
 ## 1. Executive Summary
 - **Product Name:**
