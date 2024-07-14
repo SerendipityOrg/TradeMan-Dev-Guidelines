@@ -1,3 +1,55 @@
-site_name: My Docs
+site_name: Serendipity - Dev. Guidelines
+
 theme:
   name: material
+  features:
+    - instant.loading
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Home: index.md
+  - New Project Kit:
+      - Product Requirements Document (PRD):
+          - Discovery and Ideation — Worksheet: new_project_kit/discovery_and_ideation_worksheet_template.md
+          - PRD Template: new_project_kit/prd_template.md
+      - Technical Design Documentation:
+          - TDD Template: new_project_kit/tdd_template.md
+          - TDD Template (with examples): new_project_kit/tdd_template_with_examples.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SerendipityOrg/TradeMan-Dev-Guidelines
