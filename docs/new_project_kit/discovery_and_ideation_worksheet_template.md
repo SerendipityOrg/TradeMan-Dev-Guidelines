@@ -29,7 +29,7 @@
 - Competitor 3:
 ```
 
-## **2. User Research**
+### **User Research**
 
 **Introduction:** This section captures insights from user research, focusing on Jobs To Be Done (JTBD) and use cases. Understanding user needs and behaviors is crucial for informed product decisions.
 
@@ -125,7 +125,7 @@
 
 **Example:**
 
-> ### Persona 1: Sarah, Project Manager
+> **Persona 1: Sarah, Project Manager**
 >
 > - Background: 35-year-old project manager at a mid-size tech company
 > - Goals: Streamline project workflows, improve team communication, generate accurate reports quickly
@@ -134,55 +134,59 @@
 **Fill in your personas:**
 
 ```
-### Persona 1: [Name]
+**Persona 1: [Name]**
 
 - Background:
 - Goals:
 - Pain points:
 
-### Persona 2: [Name]
+**Persona 2: [Name]**
 
 - Background:
 - Goals:
 - Pain points:
 ```
 
-## 4. Customer Journey Ideas
+## 4. In-App User Journey Ideas
 
-**Introduction:** Map out ideas for customer touchpoints at different stages of their journey with your product. This helps in identifying opportunities for engagement and improvement.
+**Introduction:** Map out ideas for user interactions and experiences at different stages of their journey within your app. This helps in identifying opportunities for engagement and improvement in the app's flow and functionality.
 
-**Guidelines:** Consider both digital and non-digital touchpoints. Think about the user's emotional state at each stage.
+**Guidelines:** Focus on key user actions and transitions between different features or sections of the app. Consider the user's goals and emotional state at each stage.
 
 **Todo List:**
 
-- [ ] Define key stages of the customer journey
-- [ ] Brainstorm potential touchpoints for each stage
-- [ ] Consider how to address user needs at each touchpoint
-- [ ] Identify potential pain points in the journey
-- [ ] Think about how to create positive emotional experiences
+- [ ] Define key stages of the user's journey within the app
+- [ ] Brainstorm potential user actions and interactions for each stage
+- [ ] Consider how to address user needs at each point in the journey
+- [ ] Identify potential pain points or friction in the app journey
+- [ ] Think about how to create positive user experiences and smooth transitions
 
 **Example:**
 
-> ### Awareness
+> **Onboarding**
 >
-> - Touchpoint idea 1: Targeted LinkedIn ads highlighting project management pain points
-> - Touchpoint idea 2: Guest blog posts on popular project management websites
+> - Journey point 1: First-time app launch - Show a brief, skippable tutorial highlighting key features
+> - Journey point 2: Create first project - Offer templates and guided setup to ensure quick success
 
-**Fill in your journey ideas:**
+**Fill in your in-app journey ideas:**
 
 ```
-### Awareness
-
-- Touchpoint idea 1:
-- Touchpoint idea 2:
-
-### Consideration
-
-- Touchpoint idea 1:
-- Touchpoint idea 2:
+**Onboarding**
+- Journey point 1:
+- Journey point 2:
+**Core Task Execution**
+- Journey point 1:
+- Journey point 2:
+**Advanced Feature Discovery**
+- Journey point 1:
+- Journey point 2:
+**Collaboration and Sharing**
+- Journey point 1:
+- Journey point 2:
+**Reporting and Analysis**
+- Journey point 1:
+- Journey point 2:
 ```
-
-### [Continue for each stage]
 
 ## 5. Feature Ideas
 
@@ -231,7 +235,7 @@
 
 **Example:**
 
-> ### Concept 1: Creating a New Project
+> **Concept 1: Creating a New Project**
 >
 > - Description: Flow for a project manager to set up a new project in the system
 > - Key steps: Login → Select 'New Project' → Enter project details → Invite team members → Set milestones → Review and confirm
@@ -240,13 +244,13 @@
 **Fill in your user flow concepts:**
 
 ```
-### Concept 1: [Name]
+**Concept 1: [Name]**
 
 - Description:
 - Key steps:
 - Potential issues:
 
-### Concept 2: [Name]
+**Concept 2: [Name]**
 
 - Description:
 - Key steps:
