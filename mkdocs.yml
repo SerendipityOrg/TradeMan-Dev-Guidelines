@@ -48,7 +48,7 @@ nav:
   - Home:
       - Start here: index.md
       - Starting new projects:
-          - New project Kit: new_project_kit/discovery_and_ideation_worksheet_template/
+          - New project Kit: new_project_kit/project_setup_guide.md
   - New Project Kit:
       - Start here: new_project_kit/project_setup_guide.md
       - Repo Templates List:
