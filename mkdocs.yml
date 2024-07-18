@@ -8,7 +8,11 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    # - navigation.expand
   palette:
     primary: indigo
     accent: indigo
@@ -33,21 +37,38 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
 
 extra_css:
   - assets/css/custom.css
 
 nav:
-  - Home: index.md
+  - Home:
+      - Start here: index.md
+      - Starting new projects: new-project-kit/setup-guide/step0.md
   - New Project Kit:
+      - Start a new Project: new-project-kit/setup-guide/step0.md
+          # - Step 1: new-project-kit/setup-guide/step1.md
+          # - Step 2: new-project-kit/setup-guide/step2.md
+          # - Step 3: new-project-kit/setup-guide/step3.md
+          # - Finished: new-project-kit/setup-guide/final_step.md
+      - View Templates: new-project-kit/templates_repos.md
+          # - WebApp Template: new-project-kit/webapp_template.md
+          # - Admin Panel Template: new-project-kit/admin_panel_template.md
+          # - Mobile App Template: new-project-kit/mobile_app_template.md
+          # - Backend Template: new-project-kit/backend_template.md
       - Product Requirements Document (PRD):
-          - Discovery and Ideation — Worksheet: new_project_kit/discovery_and_ideation_worksheet_template.md
-          - PRD Template: new_project_kit/prd_template.md
+          - Discovery and Ideation — Worksheet: new-project-kit/docs-template/discovery_and_ideation_worksheet_template.md
+          - PRD Template: new-project-kit/docs-template/prd_template.md
       - Technical Design Documentation:
-          - TDD Template: new_project_kit/tdd_template.md
-          - TDD Template (with examples): new_project_kit/tdd_template_with_examples.md
+          - TDD Template: new-project-kit/docs-template/tdd_template.md
+          - TDD Template (with examples): new-project-kit/docs-template/tdd_template_with_examples.md
 
 extra:
   social:
