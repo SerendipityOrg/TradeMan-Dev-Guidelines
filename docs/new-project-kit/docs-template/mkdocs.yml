@@ -26,8 +26,6 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: date
-      exclude:
-        - new-project-kit/docs-template/*
   - awesome-pages
 
 markdown_extensions:
@@ -50,26 +48,18 @@ markdown_extensions:
 extra_css:
   - assets/css/custom.css
 
-exclude:
-  - new-project-kit/docs-template/README.md
-
 nav:
-  - Home:
-      - Start here: index.md
-      - Starting new projects: new-project-kit/setup-guide/step0.md
-  - New Project Kit:
-      - Start a new Project: new-project-kit/setup-guide/step0.md
-      - View Templates: new-project-kit/templates_repos.md
-          # - WebApp Template: new-project-kit/webapp_template.md
-          # - Admin Panel Template: new-project-kit/admin_panel_template.md
-          # - Mobile App Template: new-project-kit/mobile_app_template.md
-          # - Backend Template: new-project-kit/backend_template.md
+  - Home: index.md
+  - Project Documentation:
+      - Get Started: project-docs/get-started.md
       - Product Requirements Document (PRD):
-        - Discovery and Ideation — Worksheet: new-project-kit/docs-template/docs/project-docs/discovery_and_ideation_worksheet_template.md
-        - PRD Template: new-project-kit/docs-template/docs/project-docs/prd_template.md
+          - Discovery and Ideation — Worksheet: project-docs/discovery_and_ideation_worksheet_template.md
+          - PRD Template: project-docs/prd_template.md
       - Technical Design Documentation:
-        - TDD Template: new-project-kit/docs-template/docs/project-docs/tdd_template.md
-        - TDD Template (with examples): new-project-kit/docs-template/docs/project-docs/tdd_template_with_examples.md
+          - TDD Template: project-docs/tdd_template.md
+          - TDD Template (with examples): project-docs/tdd_template_with_examples.md
+  # - Codebase Reference: index.md
+
 
 extra:
   social:
