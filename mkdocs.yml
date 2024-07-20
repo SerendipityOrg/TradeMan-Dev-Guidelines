@@ -60,16 +60,74 @@ nav:
   - New Project Kit:
       - Start a new Project: new-project-kit/setup-guide/step0.md
       - View Templates: new-project-kit/templates_repos.md
-          # - WebApp Template: new-project-kit/webapp_template.md
-          # - Admin Panel Template: new-project-kit/admin_panel_template.md
-          # - Mobile App Template: new-project-kit/mobile_app_template.md
-          # - Backend Template: new-project-kit/backend_template.md
       - Product Requirements Document (PRD):
-        - Discovery and Ideation — Worksheet: new-project-kit/docs-template/docs/project-docs/discovery_and_ideation_worksheet_template.md
-        - PRD Template: new-project-kit/docs-template/docs/project-docs/prd_template.md
+          - Discovery and Ideation — Worksheet: new-project-kit/docs-template/docs/project-docs/discovery_and_ideation_worksheet_template.md
+          - PRD Template: new-project-kit/docs-template/docs/project-docs/prd_template.md
       - Technical Design Documentation:
-        - TDD Template: new-project-kit/docs-template/docs/project-docs/tdd_template.md
-        - TDD Template (with examples): new-project-kit/docs-template/docs/project-docs/tdd_template_with_examples.md
+          - TDD Template: new-project-kit/docs-template/docs/project-docs/tdd_template.md
+          - TDD Template (with examples): new-project-kit/docs-template/docs/project-docs/tdd_template_with_examples.md
+  - Dev. Guidelines:
+      - Start Here: dev-guidelines/index.md
+      - Programming Guidelines:
+          - For All Languages: dev-guidelines/coding_guidelines.md
+          - Language Specific:
+              - Python: dev-guidelines/coding_guidelines_python.md
+              - Dart-Flutter: dev-guidelines/coding_guidelines_dart.md
+              - JavaScript: dev-guidelines/coding_guidelines_js.md
+              - CSS: dev-guidelines/coding_guidelines_css.md
+              - React: dev-guidelines/coding_guidelines_react.md
+      - Git & Git Workflows:
+          - Git Best Practices: dev-guidelines/git_best_practices.md
+          - Git Workflows: dev-guidelines/git_workflows.md
+      - Testing Guidelines:
+          - Testing Guidelines: dev-guidelines/testing_guidelines.md
+          - All Testing:
+              - Whitebox/Functional testing:
+                  - Unit Testing: dev-guidelines/testing_guidelines_unit_testing.md
+                  - Integration Testing: dev-guidelines/testing_guidelines_integration_testing.md
+                  - API Testing: dev-guidelines/testing_guidelines_api_testing.md
+                  - Code Coverage Testing: dev-guidelines/testing_guidelines_code_coverage_testing.md
+              - Security Testing:
+                  - Penetration(Security) Testing: dev-guidelines/testing_guidelines_penetration_testing.md
+                  - Security Audits: dev-guidelines/testing_guidelines_security_audits.md
+              - Performance Testing:
+                  - Load Testing: dev-guidelines/testing_guidelines_load_testing.md
+                  - Stress Testing: dev-guidelines/testing_guidelines_stress_testing.md
+              - Software Testing:
+                  - Regression Testing: dev-guidelines/testing_guidelines_regression_testing.md
+                  - Smoke Testing: dev-guidelines/testing_guidelines_smoke_testing.md
+                  - UI Interface Testing: dev-guidelines/testing_guidelines_ui_testing.md
+                  - User Acceptance Testing: dev-guidelines/testing_guidelines_acceptance_testing.md
+                  - Blackbox/Behavioral Testing: dev-guidelines/testing_guidelines_blackbox_testing.md
+      - Continuous Integration(CI) Guidelines:
+          - CI Guidelines:
+              - CI Guidelines: dev-guidelines/ci_guidelines.md
+              - Code linting: dev-guidelines/ci_guidelines_linting.md
+              - Automated testing: dev-guidelines/ci_guidelines_testing.md
+              - CI Tools: dev-guidelines/ci_guidelines_tools.md
+          - CI Templates: dev-guidelines/ci_templates.md
+          - Testing Checklist: dev-guidelines/testing_checklist.md
+          - TDD Guidelines: dev-guidelines/tdd_guidelines.md
+      - Continuous Deployment(CD) Guidelines:
+          - CD Guidelines: dev-guidelines/cd_guidelines.md
+          - Deployment Templates: dev-guidelines/deployment_templates.md
+          - Cloud Deployment:
+              - Cloud Deployment: dev-guidelines/cloud_deployment.md
+              - AWS: dev-guidelines/cloud_deployment_aws.md
+              - GCP: dev-guidelines/cloud_deployment_gcp.md
+              - Azure: dev-guidelines/cloud_deployment_azure.md
+      - System Design Guidelines:
+          - System Design Intro: dev-guidelines/system_design_guidelines.md
+          - Low-level Design: dev-guidelines/low_level_design.md
+          - Software Architectures: dev-guidelines/software_architecture.md
+          - High-level Architecture Design: dev-guidelines/high_level_design.md
+  - Resources:
+      - All Resources: resources/index.md
+      - References: resources/references.md
+      - Apps & Tools references: resources/app_tools_references.md
+      - Tutorials: resources/tutorials.md
+      - VSCode Configs, Profile & Extensions: resources/vscode_configs.md
+      - Other Configs: resources/configs.md
 
 extra:
   social:
