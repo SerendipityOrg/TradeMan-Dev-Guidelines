@@ -1,4 +1,4 @@
-# Github Repository Templates Guide
+# Templates
 
 Welcome to our Github Repository Templates Guide! Below are the available templates for different project types:
 
@@ -6,7 +6,21 @@ Welcome to our Github Repository Templates Guide! Below are the available templa
 
 😊 **Note**: These templates are meant to be a starting point. You are encouraged to customize and extend them according to your project requirements.
 
-## Templates
+## Github Project Templates
+
+<div class="grid cards" markdown>
+
+- :octicons-project-16: __Project Template__
+
+    ---
+
+    Start a new Github project with a few clicks
+
+    [:octicons-arrow-right-24: **Create Project Repo**](https://github.com/SerendipityOrg/Project-Template)
+
+</div>
+
+## Github Repository Templates
 
 <div class="grid cards" markdown>
 
@@ -65,7 +79,7 @@ Welcome to our Github Repository Templates Guide! Below are the available templa
 
 </div>
 
-## How to clone and setup a Github Repository using these templates
+### How to clone and setup a Github Repository using these templates
 
 1. 📋 Click on the link of the template you want to use.
 2. 📝 Click on the "Clone or Download" button and copy the URL.

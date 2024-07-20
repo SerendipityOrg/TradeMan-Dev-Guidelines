@@ -58,7 +58,10 @@ nav:
       - Start here: index.md
       - Starting new projects: new-project-kit/setup-guide/step0.md
   - New Project Kit:
-      - Start a new Project: new-project-kit/setup-guide/step0.md
+      - Start a new Project:
+          - Start Here: new-project-kit/setup-guide/step0.md
+          - Checklist: new-project-kit/setup-guide/checklist.md
+          - Github Project Setup Guide: new-project-kit/github-project-setup-guide.md
       - View Templates: new-project-kit/templates_repos.md
       - Product Requirements Document (PRD):
           - Discovery and Ideation — Worksheet: new-project-kit/docs-template/docs/project-docs/discovery_and_ideation_worksheet_template.md
@@ -119,6 +122,7 @@ nav:
       - System Design Guidelines:
           - System Design Intro: dev-guidelines/system_design_guidelines.md
           - Low-level Design: dev-guidelines/low_level_design.md
+          - Database Design: dev-guidelines/database_design.md
           - Software Architectures: dev-guidelines/software_architecture.md
           - High-level Architecture Design: dev-guidelines/high_level_design.md
   - Resources:
